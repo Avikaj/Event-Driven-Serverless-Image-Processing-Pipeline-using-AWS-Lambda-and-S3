@@ -23,7 +23,15 @@ Pixelation can be used in multiple ways, some of them are:
 
 ## Project Solution
 ### Step 1: Creating two AWS S3 Buckets( one source and one destination)
-Source:
-Destination:
+Source: pixelater-source-bucket
+Destination: pixelater-destination-bucket
+A third bucket to store the code: pixelater-code-bucket
+
+Using the CodeShell in the AWS Management Console, 
+1. Create a folder "lambda_function". [mkdir lambda_function]
+2. Navigate to the folder and create another folder "lambda". [cd lambda_function] [mkdir lambda]
+3. Move into that folder and create a python code file "lambda_function.py". [cd lambda] [nano lambda_function.py]
+4. 
+
 
 
