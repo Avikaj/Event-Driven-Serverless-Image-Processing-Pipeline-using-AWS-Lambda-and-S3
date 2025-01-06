@@ -1,6 +1,6 @@
-# EventvDriven Serverless Image Processing Pipeline using AWS Lambda and S3
+# Event Driven Serverless Image Processing Pipeline using AWS Lambda and S3
 ## Project Introduction
-This project implements an event-driven image processing pipeline using AWS Lambda and S3, designed to provide automated, scalable, and efficient image manipulation. The system leverages the power of serverless technology to perform tasks such as resizing images to multiple dimensions, and extracting valuable metadata like dimensions, format, and file size.
+This project implements an event-driven image processing pipeline using AWS Lambda and S3, designed to provide automated, scalable, and efficient image manipulation. The system leverages the power of serverless technology to perform tasks such as resizing images into five different resolutions: 8x8, 16x16, 32x32, 48x48, and 64x64.
 
 The solution is ideal for modern applications that demand high scalability and cost-efficiency, such as content management systems, social media platforms, e-commerce websites, or any service requiring robust image processing capabilities. By utilizing AWS Lambda's pay-as-you-go model, the pipeline minimizes operational costs while delivering high performance.
 
