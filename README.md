@@ -24,7 +24,9 @@ Pixelation can be used in multiple ways, some of them are:
 ## Project Solution
 ### <ins>Step 1: Creating two AWS S3 Buckets( one source and one destination)</ins>
 Source: pixelater-source-bucket
+
 Destination: pixelater-destination-bucket
+
 A third bucket to store the code: pixelater-code-bucket
 
 ### <ins>Step 2: Create the Lambda Function code(with the necessary libraries)</ins>
@@ -43,6 +45,7 @@ These are the Pillow module files required for image manipulation in Python 3.9 
 
 ### <ins> Step 3: Creating a Lambda Function</ins>
 Name: pixelater-function
+
 Runtime: Python 3.9
 
 To copy the zip file into the third S3 bucket, use the CloudShell command Line, and run [`aws s3 cp name_of_your_zip_file.zip s3://your_third_bucket_name`]
